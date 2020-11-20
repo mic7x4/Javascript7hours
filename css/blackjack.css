@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  padding: 0 10rem;
+}
+
+.content {
+  padding: 2rem 0;
+  margin: 3rem auto;
+  text-align: center;
+  width: 80%;
+  box-shadow: 1px 6px 22px -3px rgb(181, 181, 182);
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.content h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.content #result {
+  color: green;
+  font-size: 1.2rem;
+}
+.content div.blackjack-playground {
+  background: green;
+  border-top: 4px solid #333;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 20rem;
+  margin-top: 1rem;
+}
+.playground-buttons {
+  padding: 2rem 0;
+  max-width: 100%;
+}
+button {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.btn-primary {
+  background-color: rgb(0, 98, 255);
+}
+.btn-danger {
+  background-color: red;
+}
+.btn-warning {
+  background-color: rgb(163, 163, 7);
+}
+.btn-success {
+  background-color: rgb(28, 177, 28);
+}
+.btn-primary:hover {
+  background-color: rgb(14, 81, 187);
+}
+.btn-warning:hover {
+  background-color: rgb(144, 144, 6);
+}
+.btn-danger:hover {
+  background-color: rgb(221, 11, 11);
+}
+
+div.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #333;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+
+.playground-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.playground-result table {
+  box-shadow: 1px 6px 22px -3px rgb(181, 181, 182);
+}
+.playground-result table th {
+  padding: 2rem;
+}
+.playground-result table tr {
+  background-color: rgb(221, 221, 221);
+}
+.playground-result table td {
+  background-color: rgb(246, 246, 246);
+  padding: 1rem;
+}
