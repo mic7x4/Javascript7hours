@@ -1,3 +1,7 @@
 ﻿'use strict';
+(function (){
+    'use strict';
 
-console.log('Working!');
+    setTimeout(()=> console.log('This is it'), 1000)
+}())
+ 
